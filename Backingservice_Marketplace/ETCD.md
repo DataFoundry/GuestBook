@@ -21,13 +21,7 @@ ETCD 是一个高可用的键值存储系统,主要用于共享配置和服务�
 - BSI:
 
 ```
-- BSI_ETCD_ETCDTEST_NAME= 
-- BSI_ETCD_ETCDTEST_USERNAME=etcduser
-- BSI_ETCD_ETCDTEST_PASSWORD=0b48862d05e57aa892c3b1b97cb2b88d
-- BSI_ETCD_ETCDTEST_HOST=sb-6z5t2hupy5rtc-etcd.app.dataos.io
-- BSI_ETCD_ETCDTEST_PORT="80"
-- BSI_ETCD_ETCDTEST_VHOST
-- BSI_ETCD_ETCDTEST_URI=http://sb-6z5t2hupy5rtc-etcd.app.dataos.io:80
+- name: BSI_ETCD_ETCDTEST_NAME- name: BSI_ETCD_ETCDTEST_USERNAME  value: etcduser- name: BSI_ETCD_ETCDTEST_PASSWORD  value: 0b48862d05e57aa892c3b1b97cb2b88d- name: BSI_ETCD_ETCDTEST_HOST  value: sb-6z5t2hupy5rtc-etcd.app.dataos.io- name: BSI_ETCD_ETCDTEST_PORT  value: "80"- name: BSI_ETCD_ETCDTEST_VHOST- name: BSI_ETCD_ETCDTEST_URI  value: http://sb-6z5t2hupy5rtc-etcd.app.dataos.io:80
 ```
 
 - JSON:
