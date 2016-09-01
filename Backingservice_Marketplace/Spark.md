@@ -19,28 +19,47 @@ Spark 是 UC Berkeley AMP lab 所开源的类 Hadoop MapReduce 的通用并行�
 
 ### Spark 实例环境变量举例
 
+- BSI:
+
+```
 - BSI_SPARK_SPARKTEST_PASSWORD=e149049f1ddeeac99f0b2b3de5a50e03
 - BSI_SPARK_SPARKTEST_HOST=sb-tdgon43zxtpo6-sparkms.service-brokers.svc.cluster.local
 - BSI_SPARK_SPARKTEST_PORT="7077"
 - BSI_SPARK_SPARKTEST_URI='spark: spark://sb-tdgon43zxtpo6-sparkms.service-brokers.svc.cluster.local:7077 zeppelin: http://sb-tdgon43zxtpo6-spark-zeppelin-servicebroker.app.dataos.io:80'
+```
 
 - JSON:
 
-{"Spark":[{"name":"spark-test","label":"","plan":"One_Worker","credentials":{"Host":"sb-tdgon43zxtpo6-sparkms.service-brokers.svc.cluster.local","Name":"","Password":"e149049f1ddeeac99f0b2b3de5a50e03","Port":"7077","Uri":"spark:
-            spark://sb-tdgon43zxtpo6-sparkms.service-brokers.svc.cluster.local:7077
-            zeppelin: http://sb-tdgon43zxtpo6-spark-zeppelin-servicebroker.app.dataos.io:80","Username":"","Vhost":""}}]}
+```
+{
+  "Spark": [
+    {
+      "name": "spark-test", 
+      "label": "", 
+      "plan": "One_Worker", 
+      "credentials": {
+        "Host": "sb-tdgon43zxtpo6-sparkms.service-brokers.svc.cluster.local", 
+        "Name": "", 
+        "Password": "e149049f1ddeeac99f0b2b3de5a50e03", 
+        "Port": "7077", 
+        "Uri": "spark://sb-tdgon43zxtpo6-sparkms.service-brokers.svc.cluster.local:7077, zeppelin: http://sb-tdgon43zxtpo6-spark-zeppelin-servicebroker.app.dataos.io:80", 
+        "Username": "", 
+        "Vhost": ""
+      }
+    }
+  ]
+}
+```
 
 ### 使用 Spark 实例
 
-Spark 实例与服务绑定后，使用BSI_SPARK_SPARKTEST_URI 以及 BSI_SPARK_SPARKTEST_PASSWORD 等环境变量连接 Spark 实例。
+- Spark 实例与服务绑定后，使用BSI_SPARK_SPARKTEST_URI 以及 BSI_SPARK_SPARKTEST_PASSWORD 等环境变量连接 Spark 实例。
 
 ## 其他文档
 
-官方文档：http://spark.apache.org/
-
-帮助文档：http://spark.apache.org/docs/1.5.2/
-
-API文档：http://spark.apache.org/examples.html
+- 官方文档： http://spark.apache.org/
+- 帮助文档： http://spark.apache.org/docs/1.5.2/
+- API 文档： http://spark.apache.org/examples.html
 
 
 
