@@ -21,10 +21,7 @@ Redis 是一个可基于内存亦可持久化的日志型、Key-Value 数据库�
 - BSI：
 
 ```
-- BSI_REDIS_REDISTEST_PASSWORD=8cefc7cb5901b914bf265631f0aa9113
-- BSI_REDIS_REDISTEST_HOST=sb-ggmmyzrtthgom-redis.service-brokers.svc.cluster.local
-- BSI_REDIS_REDISTEST_PORT="26379"
-- BSI_REDIS_REDISTEST_NAME=cluster-sb-ggmmyzrtthgom-redis
+- name: BSI_REDIS_REDISTEST_PASSWORD  value: 8cefc7cb5901b914bf265631f0aa9113- name: BSI_REDIS_REDISTEST_HOST  value: sb-ggmmyzrtthgom-redis.service-brokers.svc.cluster.local- name: BSI_REDIS_REDISTEST_PORT  value: "26379"- name: BSI_REDIS_REDISTEST_NAME  value: cluster-sb-ggmmyzrtthgom-redis
 ```
 
 - JSON:
