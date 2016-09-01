@@ -35,7 +35,7 @@
    * [ZooKeeper](Backingservice_Marketplace/ZooKeeper.md)
    * [RabbitMQ](Backingservice_Marketplace/RabbitMQ.md)
    * [Spark](Backingservice_Marketplace/Spark.md)
-   * [etcd](Backingservice_Marketplace/ETCD.md)
+   * [ETCD](Backingservice_Marketplace/ETCD.md)
    * [Storm](Backingservice_Marketplace/Storm.md)
    * [Cassandra](Backingservice_Marketplace/Cassandra.md)
    * [Kafka](Backingservice_Marketplace/Kafka.md)
