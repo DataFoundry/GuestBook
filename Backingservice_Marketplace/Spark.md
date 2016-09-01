@@ -4,7 +4,7 @@
 
 版本：v1.5.2
 
-Spark是UC Berkeley AMP lab所开源的类Hadoop MapReduce的通用并行框架。Spark 启用了内存分布数据集，除了能够提供交互式查询外，还可以优化迭代工作负载。
+Spark 是 UC Berkeley AMP lab 所开源的类 Hadoop MapReduce 的通用并行框架。Spark 启用了内存分布数据集，除了能够提供交互式查询外，还可以优化迭代工作负载。
 
 ## Spark 后端服务
 
