@@ -1,6 +1,6 @@
 # Oracle_Cloud
 
-![](img/Oracle.gif) 
+![](img/Oracle.png) 
 
 版本：v11.2
 
