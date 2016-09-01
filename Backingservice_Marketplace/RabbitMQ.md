@@ -4,7 +4,7 @@
 
 版本：v3.6.1
 
-RabbitMQ是流行的开源消息队列系统。用于在分布式系统中存储转发消息，在易用性、扩展性、高可用性等方面表现不俗。
+RabbitMQ 是流行的开源消息队列系统。用于在分布式系统中存储转发消息，在易用性、扩展性、高可用性等方面表现不俗。
 
 ## RabbitMQ 后端服务
 
@@ -56,6 +56,6 @@ RabbitMQ是流行的开源消息队列系统。用于在分布式系统中存储
 
 - 官方文档： http://www.rabbitmq.com/
 - 帮助文档： http://www.rabbitmq.com/documentation.html
-- 教程： http://www.rabbitmq.com/getstarted.html
+- 官方教程： http://www.rabbitmq.com/getstarted.html
 - API 文档： http://www.rabbitmq.com/releases/rabbitmq-java-client/v3.6.5/rabbitmq-java-client-javadoc-3.6.5/
 
