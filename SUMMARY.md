@@ -40,7 +40,7 @@
    * [Cassandra](Backingservice_Marketplace/Cassandra.md)
    * [Kafka](Backingservice_Marketplace/Kafka.md)
    * [Oracle](Backingservice_Marketplace/Oracle.md)
-   * [Oracle_Cloud](Backingservice_Marketplace/Oracle_Cloud.md)
+   * [Oracle Cloud](Backingservice_Marketplace/Oracle_Cloud.md)
    * [HBase](Backingservice_Marketplace/HBase.md)
    * [HDFS](Backingservice_Marketplace/HDFS.md)
    * [Greenplum](Backingservice_Marketplace/Greenplum.md)
