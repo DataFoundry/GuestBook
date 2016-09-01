@@ -1,6 +1,5 @@
 # etcd
 
-
 ![](img/ETCD.png)
 
 版本：v2.3.0

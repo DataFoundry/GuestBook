@@ -1,13 +1,13 @@
 # 后端支持服务市场
 
-铸数工坊（DataFoundry）在后端支持服务市场中已提供24种后端支持服务：
+铸数工坊（DataFoundry）在后端支持服务市场中已提供 24 种后端支持服务：
 
-- [Redis](redis.md)
-- [ZooKeeper](zookeeper.md)
-- [RabbitMQ](rabbitmq.md)
-- [Spark](spark.md)
-- [etcd](etcd.md)
-- [Storm](storm.md)
-- [Cassandra](cassandra.md)
-- [Kafka](kafka.md)
+- [Redis](Redis.md)
+- [ZooKeeper](ZooKeeper.md)
+- [RabbitMQ](RabbitMQ.md)
+- [Spark](Spark.md)
+- [ETCD](ETCD.md)
+- [Storm](Storm.md)
+- [Cassandra](Cassandra.md)
+- [Kafka](Kafka.md)
 
