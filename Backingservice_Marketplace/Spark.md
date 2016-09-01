@@ -14,7 +14,7 @@ Spark 是 UC Berkeley AMP lab 所开源的类 Hadoop MapReduce 的通用并行�
 
 ### Spark 仪表盘
 
-![](img/Spark-Dashbroad.png)
+![](img/Spark_Dashbroad.png)
 
 
 ### Spark 实例环境变量举例

@@ -14,7 +14,7 @@ RabbitMQ是流行的开源消息队列系统。用于在分布式系统中存储
 
 ### RabbitMQ 仪表盘
 
-![](img/RabbitMQ-DashBroad.png)
+![](img/RabbitMQ-Dashboard.png)
 
 
 ### RabbitMQ 实例环境变量举例
