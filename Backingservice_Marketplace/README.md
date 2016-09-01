@@ -20,6 +20,6 @@
 - [Kettle](kettle.md)
 - [NiFi](nifi.md)
 - [TensorFlow](tensorflow.md)
-- 
+- [Mysql](mysql.md)
 
 
