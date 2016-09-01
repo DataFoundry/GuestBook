@@ -22,17 +22,30 @@ RabbitMQ是流行的开源消息队列系统。用于在分布式系统中存储
 - BSI:
 
 ```
-- BSI_RABBITMQ_RABBITMQTEST_URI=amqp://W61WK5VKpdI:7883eb598bf004063139148012847586@sb-rhcoe4ny3rxlo-rbbtmq.service-brokers.svc.cluster.local:5672
-- BSI_RABBITMQ_RABBITMQTEST_USERNAME=W61WK5VKpdI
-- BSI_RABBITMQ_RABBITMQTEST_PASSWORD=7883eb598bf004063139148012847586
-- BSI_RABBITMQ_RABBITMQTEST_HOST=sb-rhcoe4ny3rxlo-rbbtmq.service-brokers.svc.cluster.local
-- BSI_RABBITMQ_RABBITMQTEST_PORT="5672"
+- name: BSI_RABBITMQ_RABBITMQTEST_URI  value: amqp://W61WK5VKpdI:7883eb598bf004063139148012847586@sb-rhcoe4ny3rxlo-rbbtmq.service-brokers.svc.cluster.local:5672- name: BSI_RABBITMQ_RABBITMQTEST_USERNAME  value: W61WK5VKpdI- name: BSI_RABBITMQ_RABBITMQTEST_PASSWORD  value: 7883eb598bf004063139148012847586- name: BSI_RABBITMQ_RABBITMQTEST_HOST  value: sb-rhcoe4ny3rxlo-rbbtmq.service-brokers.svc.cluster.local- name: BSI_RABBITMQ_RABBITMQTEST_PORT  value: "5672"
 ```
 
 - JSON:
 
 ```
-{"RabbitMQ":[{"name":"rabbitmq-test","label":"","plan":"standalone","credentials":{"Host":"sb-rhcoe4ny3rxlo-rbbtmq.service-brokers.svc.cluster.local","Name":"","Password":"7883eb598bf004063139148012847586","Port":"5672","Uri":"amqp://W61WK5VKpdI:7883eb598bf004063139148012847586@sb-rhcoe4ny3rxlo-rbbtmq.service-brokers.svc.cluster.local:5672","Username":"W61WK5VKpdI","Vhost":""}}]}
+{
+  "RabbitMQ": [
+    {
+      "name": "rabbitmq-test", 
+      "label": "", 
+      "plan": "standalone", 
+      "credentials": {
+        "Host": "sb-rhcoe4ny3rxlo-rbbtmq.service-brokers.svc.cluster.local", 
+        "Name": "", 
+        "Password": "7883eb598bf004063139148012847586", 
+        "Port": "5672", 
+        "Uri": "amqp://W61WK5VKpdI:7883eb598bf004063139148012847586@sb-rhcoe4ny3rxlo-rbbtmq.service-brokers.svc.cluster.local:5672", 
+        "Username": "W61WK5VKpdI", 
+        "Vhost": ""
+      }
+    }
+  ]
+}
 ```
 
 ### 使用 RabbitMQ 实例
