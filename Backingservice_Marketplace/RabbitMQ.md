@@ -31,7 +31,9 @@ RabbitMQ是流行的开源消息队列系统。用于在分布式系统中存储
 
 - JSON:
 
+```
 {"RabbitMQ":[{"name":"rabbitmq-test","label":"","plan":"standalone","credentials":{"Host":"sb-rhcoe4ny3rxlo-rbbtmq.service-brokers.svc.cluster.local","Name":"","Password":"7883eb598bf004063139148012847586","Port":"5672","Uri":"amqp://W61WK5VKpdI:7883eb598bf004063139148012847586@sb-rhcoe4ny3rxlo-rbbtmq.service-brokers.svc.cluster.local:5672","Username":"W61WK5VKpdI","Vhost":""}}]}
+```
 
 ### 使用 RabbitMQ 实例
 
