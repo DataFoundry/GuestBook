@@ -17,5 +17,9 @@
 - [PostgreSQL](PostgreSQL.md)
 - [MongoDB](MongoDB.md)
 - [PySpider](PySpider.md)
+- [Kettle](kettle.md)
+- [NiFi](nifi.md)
+- [TensorFlow](tensorflow.md)
+- 
 
 
