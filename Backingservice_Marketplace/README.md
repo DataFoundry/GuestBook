@@ -9,5 +9,13 @@
 - [ETCD](ETCD.md)
 - [Storm](Storm.md)
 - [Cassandra](Cassandra.md)
-- [Kafka](Kafka.md)
+- [Oracle](Oracle.md)
+- [Oracle_Cloud](Oracle_Cloud.md)
+- [HBase](HBase.md)
+- [HDFS](HDFS.md)
+- [Greenplum](Greenplum.md)
+- [PostgreSQL](PostgreSQL.md)
+- [MongoDB](MongoDB.md)
+- [PySpider](PySpider.md)
+
 
