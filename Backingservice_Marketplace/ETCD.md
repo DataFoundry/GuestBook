@@ -18,6 +18,9 @@ ETCD 是一个高可用的键值存储系统,主要用于共享配置和服务�
 
 ### ETCD 实例的环境变量举例
 
+- BSI:
+
+```
 - BSI_ETCD_ETCDTEST_NAME= 
 - BSI_ETCD_ETCDTEST_USERNAME=etcduser
 - BSI_ETCD_ETCDTEST_PASSWORD=0b48862d05e57aa892c3b1b97cb2b88d
@@ -25,12 +28,30 @@ ETCD 是一个高可用的键值存储系统,主要用于共享配置和服务�
 - BSI_ETCD_ETCDTEST_PORT="80"
 - BSI_ETCD_ETCDTEST_VHOST
 - BSI_ETCD_ETCDTEST_URI=http://sb-6z5t2hupy5rtc-etcd.app.dataos.io:80
+```
 
 - JSON:
 
-{"ETCD":[{"name":"etcd-test","label":"","plan":"standalone","credentials":{"Host":"sb-6z5t2hupy5rtc-etcd.app.dataos.io","Name":"","Password":"0b48862d05e57aa892c3b1b97cb2b88d","Port":"80","Uri":"http://sb-6z5t2hupy5rtc-etcd.app.dataos.io:80","Username":"etcduser","Vhost":""}}]}
-
-
+```
+{
+  "ETCD": [
+    {
+      "name": "etcd-test", 
+      "label": "", 
+      "plan": "standalone", 
+      "credentials": {
+        "Host": "sb-6z5t2hupy5rtc-etcd.app.dataos.io", 
+        "Name": "", 
+        "Password": "0b48862d05e57aa892c3b1b97cb2b88d", 
+        "Port": "80", 
+        "Uri": "http://sb-6z5t2hupy5rtc-etcd.app.dataos.io:80", 
+        "Username": "etcduser", 
+        "Vhost": ""
+      }
+    }
+  ]
+}
+```
 
 ## 其他文档
 
