@@ -43,7 +43,7 @@
    * [Oracle_Cloud](Backingservice_Marketplace/Oracle_Cloud.md)
    * [HBase](Backingservice_Marketplace/HBase.md)
    * [HDFS](Backingservice_Marketplace/HDFS.md)
-   * [Greenplum](Backingservice_Marketplace/.md)
+   * [Greenplum](Backingservice_Marketplace/Greenplum.md)
    * [PostgreSQL](Backingservice_Marketplace/PostgreSQL.md)
    * [MongoDB](Backingservice_Marketplace/MongoDB.md)
    * [PySpider](Backingservice_Marketplace/PySpider.md)
