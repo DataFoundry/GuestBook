@@ -21,5 +21,9 @@
 - [NiFi](nifi.md)
 - [TensorFlow](tensorflow.md)
 - [Mysql](mysql.md)
+- [MapReduce](MapReduce.md)
+- [Hive](Hive.md)
+
+
 
 
