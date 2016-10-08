@@ -30,7 +30,7 @@
            * [MNIST](Tutorials/Application_Cases/TensorFlow/Tutorials/MNIST.md)
            * [Word2Vec](Tutorials/Application_Cases/TensorFlow/Tutorials/Word2Vec.md)
            * [PDE Raindrop](Tutorials/Application_Cases/TensorFlow/Tutorials/PDE_Raindrop.md)
-* [后端支持服务市场](Backingservice_Marketplace/README.md)
+* [后端服务市场](Backingservice_Marketplace/README.md)
    * [Redis](Backingservice_Marketplace/Redis.md)
    * [ZooKeeper](Backingservice_Marketplace/ZooKeeper.md)
    * [RabbitMQ](Backingservice_Marketplace/RabbitMQ.md)
@@ -47,4 +47,7 @@
    * [PostgreSQL](Backingservice_Marketplace/PostgreSQL.md)
    * [MongoDB](Backingservice_Marketplace/MongoDB.md)
    * [PySpider](Backingservice_Marketplace/PySpider.md)
+   * [Hive](Backingservice_Marketplace/Hive.md)
+   * [MapReduce](Backingservice_Marketplace/MapReduce.md)
+   
 * [常见问题](FAQ.md)
