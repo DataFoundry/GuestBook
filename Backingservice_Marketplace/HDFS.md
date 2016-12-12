@@ -77,6 +77,8 @@ Hadoop 分布式文件系统。有着高容错性的特点，并且设计用来�
 
        curl -i -v --negotiate -u : -b /tmp/cookiejar.txt -c /tmp/cookiejar.txt http://${BSI_HDFS_HDFSDEMO_HOST}:${BSI_HDFS_HDFSDEMO_PORT}/webhdfs/v1"+${BSI_HDFS_HDFSDEMO_NAME}+"?op=liststatus
 
+ - 具体可以参考例子: https://github.com/asiainfoLDP/datafoundry_hadoop_demo
+
 ## 其它文档
 
  - 官方文档: https://hadoop.apache.org/docs/r2.7.1/

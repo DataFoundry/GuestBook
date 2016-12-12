@@ -80,6 +80,8 @@ Hive是一个可以通过SQL去读写，管理存储在分布式存储系统上�
     jdbc:hive2://${BSI_HIVE_HIVEDEMO_HOST}:${BSI_HIVE_HIVEDEMO_PORT}/${BSI_HIVE_HIVEDEMO_NAME};principal=${BSI_HIVE_HIVEDEMO_USERNAME}"
     ```
 
+- 具体可以参考例子: https://github.com/asiainfoLDP/datafoundry_ocdp_hive_demo
+
 ## 其他文档
 
 - 官方文档： http://hive.apache.org/
