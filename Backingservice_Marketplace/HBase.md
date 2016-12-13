@@ -74,7 +74,9 @@ HBase 是一个分布式的、面向列的开源数据库。基于列的模式�
     - 通过Hadoop的UserGroupInformation.loginUserFromSubject方法获取Kerberos票据
 
 - 在服务代码中,根据Broker注入的HBase URI及Zookeeper信息(BSI_HBASE_HBASEDEMO_URI, BSI_HBASE_HBASEDEMO_HOST,BSI_HBASE_HBASEDEMO_PORT),
-利用HBase的JAVA API访问Broker为用户分配的HBase命令空间
+利用HBase的REST API访问Broker为用户分配的HBase命令空间
+
+- 具体可以参考例子: https://github.com/asiainfoLDP/ocdp_hbase_demo
 
 ## 其他文档
 
